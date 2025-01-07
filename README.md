@@ -1,3 +1,11 @@
+# Run the script file:
+
+- add `--network buildbear` to below to run on a network
+
+```bash
+npx hardhat run scripts/deployAndImpersonate.ts
+```
+
 # Sample Hardhat Project
 
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
