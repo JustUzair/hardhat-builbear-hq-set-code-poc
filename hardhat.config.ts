@@ -14,15 +14,14 @@ const config: HardhatUserConfig = {
     settings: {
       optimizer: {
         enabled: false,
-        runs: 200,
+        // runs: 200,
       },
     },
   },
   networks: {
     buildbear: {
       url: "https://rpc.buildbear.io/mighty-captainamerica-167b8637",
-      accounts:
-        process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
+      accounts: [],
     },
     hardhat: {
       forking: {
