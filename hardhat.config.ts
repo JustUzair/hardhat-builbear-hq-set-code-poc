@@ -21,7 +21,6 @@ const config: HardhatUserConfig = {
   networks: {
     buildbear: {
       url: "https://rpc.buildbear.io/mighty-captainamerica-167b8637",
-      accounts: [],
     },
     hardhat: {
       forking: {

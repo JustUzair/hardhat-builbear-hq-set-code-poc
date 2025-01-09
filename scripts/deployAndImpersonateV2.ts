@@ -28,6 +28,7 @@ async function main() {
   // Get the runtime bytecode (not the deployment bytecode)
   const daiV2RuntimeBytecode = await network.provider.send("eth_getCode", [
     await daiV2.getAddress(),
+    "latest",
   ]);
 
   // Set the bytecode
