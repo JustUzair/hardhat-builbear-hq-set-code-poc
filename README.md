@@ -1,6 +1,6 @@
 # Run the script file:
 
-- add `--network buildbear` to below to run on a network
+- add `--network buildbear` to below to run on the sandbox environment
 
 ```bash
 npx hardhat run scripts/deployAndImpersonate.ts
