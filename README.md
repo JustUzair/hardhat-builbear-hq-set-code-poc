@@ -1,3 +1,8 @@
+# Install Dependencies
+```bash
+npm i
+```
+
 # Run the script file:
 
 - add `--network buildbear` to below to run on the sandbox environment
