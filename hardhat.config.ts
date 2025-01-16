@@ -20,11 +20,11 @@ const config: HardhatUserConfig = {
   },
   networks: {
     buildbear: {
-      url: "https://rpc.buildbear.io/mighty-captainamerica-167b8637",
+      url: "https://rpc.buildbear.io/silky-bucky-e35bf6fc",
     },
     hardhat: {
       forking: {
-        url: "https://rpc.buildbear.io/mighty-captainamerica-167b8637",
+        url: "https://rpc.buildbear.io/silky-bucky-e35bf6fc",
       },
     },
   },
